@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pipirima Pizza</title>
+    <!-- Add Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css" />
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <nav class="navbar d-flex navbar-light bg-light">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/Logo-pgj5lx7677m83unh6tgy2n6iy3mlrcf1beo36xtssg.png"
+            alt="Pipirima Pizza Logo"
+            style="max-width: 180px; margin-top: 5px"
+          />
+        </a>
+        <!-- Cart Icon -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Cart Icon -->
+        <button
+          class="navbar-toggler d-md-flex"
+          type="button"
+          data-toggle="collapse"
+          data-target="#cartCollapse"
+          aria-controls="cartCollapse"
+          aria-expanded="false"
+          aria-label="Toggle cart"
+        >
+          <span class="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2em"
+              height="2em"
+              viewBox="0 0 24 24"
+              class="sg"
+            >
+              <path
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+                d="M5 5h17l-2 9H7L4 2H0m7 12l1 4h13m-2 5a1 1 0 1 1 0-2a1 1 0 0 1 0 2ZM9 23a1 1 0 1 1 0-2a1 1 0 0 1 0 2Z"
+              />
+            </svg>
+          </span>
+        </button>
+        <!-- Navbar links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PAGES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Cart Section - Shown on Toggle -->
+    <div class="collapse" id="cartCollapse">
+      <div class="bg-light p-3">
+        <!-- Your cart content here -->
+        <!-- For demonstration, let's add a simple message -->
+        Your cart is currently empty.
+      </div>
+    </div>
+
+    <section class="container d-flex">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <!-- <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex">
+            <img
+              src="img/cheerful-group-of-friends-having-fun-at-home-eatin-XX7EJBK.jpg"
+              class="m-3 rounded"
+              alt="..."
+              width="30%"
+            />
+            <img
+              src="img/cheerful-group-of-friends-having-fun-at-home-eatin-XX7EJBK.jpg"
+              class="m-3 rounded"
+              alt="..."
+              width="30%"
+            />
+            <img
+              src="img/cheerful-group-of-friends-having-fun-at-home-eatin-XX7EJBK.jpg"
+              class="m-3 rounded"
+              alt="..."
+              width="30%"
+            />
+        </div>
+          <div class="carousel-item d-flex">
+            <img
+              src="img/cheerful-group-of-friends-having-fun-at-home-eatin-XX7EJBK.jpg"
+              class="m-3 rounded"
+              alt="..."
+              width="30%"
+            />
+            <img
+              src="img/cheerful-group-of-friends-having-fun-at-home-eatin-XX7EJBK.jpg"
+              class="m-3 rounded"
+              alt="..."
+              width="30%"
+            />
+            <img
+              src="img/cheerful-group-of-friends-having-fun-at-home-eatin-XX7EJBK.jpg"
+              class="m-3 rounded"
+              alt="..."
+              width="30%"
+            />
+        </div>
+          <div class="carousel-item d-flex">
+            <img
+              src="img/cheerful-group-of-friends-having-fun-at-home-eatin-XX7EJBK.jpg"
+              class="m-3 rounded"
+              alt="..."
+              width="30%"
+            />
+            <img
+              src="img/cheerful-group-of-friends-having-fun-at-home-eatin-XX7EJBK.jpg"
+              class="m-3 rounded"
+              alt="..."
+              width="30%"
+            />
+            <img
+              src="img/cheerful-group-of-friends-having-fun-at-home-eatin-XX7EJBK.jpg"
+              class="m-3 rounded"
+              alt="..."
+              width="30%"
+            />
+        </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </section>
+
+    <!-- Your other sections here -->
+
+    <!-- Add Bootstrap JS -->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
